@@ -24,6 +24,16 @@ For discretion I will not include my `graph.json` file, however I provide [my me
 
 ## Running the Algorithms
 
+### Dependencies
+
+Before we can run any python programs we need to install the dependencies for the projects
+
+```console
+pip install -r requirements.txt
+```
+
+**Note:** This `requirements.txt` is different than the one used in the Data Extraction method.
+
 All the allgorithms will be in the [Algorithms](./Algorithms/) directory.
 
 Running them will be as simple as running the script for the algorithm and giving the `path to the graph.json` as an argument.
