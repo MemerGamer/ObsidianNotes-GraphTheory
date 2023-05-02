@@ -1,0 +1,37 @@
+# Running Graph Algorithms on Obsidian Graph
+
+This repository contains Python scripts for running graph algorithms on a graph extracted from an [Obsidian](https://obsidian.md) notes graph view.
+
+## Introduction
+
+Obsidian is a powerful note-taking app that allows users to create and link notes in a graph-like structure. The app has a graph view that displays the relationships between the notes as nodes and edges.
+
+This repository provides a way to extract the graph structure from the Obsidian graph view and run graph algorithms on it using Python. This can be useful for analyzing the structure of your notes and identifying patterns and insights.
+
+## Setup
+
+You will need `git`, `python3` and `pip` installed.
+
+You need to clone the repository:
+
+```console
+git clone https://github.com/MemerGamer/ObsidianNotes-GraphTheory.git
+```
+
+## Data extraction
+
+For discretion I will not include my `graph.json` file, however I provide [my method for extracting the graph](./DataExtraction/README.md).
+
+## Running the Algorithms
+
+All the allgorithms will be in the [Algorithms](./Algorithms/) directory.
+
+Running them will be as simple as running the script for the algorithm and giving the `path to the graph.json` as an argument.
+
+For example:
+
+```console
+cd Algorithms
+
+python3 DFS.py /path/to/graph.json
+```
