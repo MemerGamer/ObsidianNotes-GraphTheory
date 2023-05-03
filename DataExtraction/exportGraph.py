@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/env python3
 import obsidiantools.api as otools
 import networkx as nx
 import os
