@@ -48,5 +48,5 @@ For example:
 ```console
 cd Algorithms
 
-python3 DFS.py /path/to/graph.json
+python3 bfs.py /path/to/graph.json
 ```
