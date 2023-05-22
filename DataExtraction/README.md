@@ -37,7 +37,7 @@ or
 
 The output will be a `graph.json` file that contains the vault graph nodes and edges.
 
-## Simplyfing the data
+## Simplifying the data
 
 The node names in the `graph.json` will likely be long strings, because each node represents a title of a subject or a class.
 
