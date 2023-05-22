@@ -20,7 +20,7 @@ git clone https://github.com/MemerGamer/ObsidianNotes-GraphTheory.git
 
 ## Data extraction
 
-For discretion I will not include my `graph.json` file, however I provide [my method for extracting the graph](./DataExtraction/).
+For discretion I will not include my `graph.json` file, however I provide [my method for extracting the graph, and renaming it with a convention](./DataExtraction/).
 
 ## If you don't want to extract the Graph from Obsidian
 
