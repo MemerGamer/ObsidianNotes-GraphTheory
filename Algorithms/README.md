@@ -6,7 +6,9 @@
 | ------------------------------ | ----------------------------------------------------------------------------- |
 | [visualize.py](./visualize.py) | Visualizes the graph from the `graph.json` file                               |
 | [bfs.py](./bfs.py)             | Runs the Breadth-First Search (BFS) algorithm for the given `graph.json` file |
+| [dfs.py](./dfs.py)             | Runs the Depth-First Search (DFS) algorithm for the given `graph.json` file.  |
 
 ## The list of Implemented Graph Algorithms
 
 - Breadth-First Search (BFS)
+- Depth First Search (DFS)
