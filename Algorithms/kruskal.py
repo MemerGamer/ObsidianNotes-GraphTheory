@@ -37,7 +37,11 @@ def kruskals_algorithm(graph):
     for link in graph["links"]:
         source = link["source"]
         target = link["target"]
-        weight = 1  # Assuming all edges have the same weight
+        try:
+            weight = link["weight"]
+        except KeyError:
+            weight = 1  # Assuming all edges have the same weight
+
         edges.append((source, target, weight))
 
     edges.sort(key=lambda x: x[2])  # Sort edges by weight
