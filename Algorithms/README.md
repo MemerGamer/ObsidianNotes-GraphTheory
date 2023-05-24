@@ -10,6 +10,7 @@
 | [check_bipartite.py](./check_bipartite.py) | Checks if the graph is bipartite (stable) or not.                                  |
 | [kruskal.py](./kruskal.py)                 | Runs the Kruskal's Minimum Spanning Tree Algorithm for the given `graph.json` file |
 | [prim.py](./prim.py)                       | Runs the Prim's Minimum Spanning Tree Algorithm for the given `graph.json` file    |
+| [dijkstra.py](./dijkstra.py)               | Runs the Dijkstra's Shortest Path Algorithm for the given `graph.json` file        |
 
 ## The list of Implemented Graph Algorithms
 
@@ -18,3 +19,4 @@
 - Check if the graph is bipartite (stable)
 - Kruskal's Minimum Spanning Tree Algorithm
 - Prim's Minimum Spanning Tree Algorithm
+- Dijkstra's Shortest Path Algorithm
