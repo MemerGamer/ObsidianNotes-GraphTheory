@@ -6,7 +6,7 @@ import sys
 
 def rename_nodes(graph):
     renamed_graph = nx.relabel_nodes(
-        graph, {node: f"node{i+1}" for i, node in enumerate(graph.nodes)}
+        graph, {node: f"{i+1}" for i, node in enumerate(graph.nodes)}
     )
     return renamed_graph
 

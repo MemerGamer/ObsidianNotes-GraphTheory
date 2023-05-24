@@ -47,7 +47,7 @@ For this I provided a python script that will rename each node according to a sc
 
 The scheme will be the following:
 
-- ${node}_i,\space \forall i \in S , {where} \space S \space is \space the \space Graph$; the first node will be: `node1`, the second `node2` and so on.
+- $i,\space \forall i \in S , {where} \space S \space represents \space the \space Graphs \space nodes $; the first node will be: `1`, the second `2` and so on.
 
 ## Running the script for renaming the graph
 
