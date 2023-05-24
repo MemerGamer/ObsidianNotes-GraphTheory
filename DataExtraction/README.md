@@ -65,3 +65,33 @@ or
 ```console
 ./renameGraph.py /path/to/graph.json /path/to/renamed.json
 ```
+
+## Weight problem
+
+The main graph that we could get from obsidian is a non-weighted graph, but we need a weighted graph for the lot of the algorithms that we will use.
+
+For that I wrote a script that will check for multiple edges between nodes, count them and add that number of nodes as weights to the graph.
+
+I know that this is not a perfect solution, but it's the best that currently I can do.
+
+NOTE: All of the algorithms will work on non-weighted graphs, but it will use weight 1 for all of the edges.
+
+I provided an example of the weighted graph structure in the
+[example-graph-05.json](./examples/example-graph-05.json)
+
+## Running the script for adding weights to the graph
+
+The script will need two arguments:
+
+- The `renamed.json`
+- And the new `weighted.json`, this will be created from the first `renamed.json`
+
+```console
+./preprocessGraph.py /path/to/renamed.json /path/to/weighted.json
+```
+
+or
+
+```console
+python3 preprocessGraph.py /path/to/renamed.json /path/to/weighted.json
+```
