@@ -12,6 +12,14 @@
 | [prim.py](./prim.py)                       | Runs the Prim's Minimum Spanning Tree Algorithm for the given `graph.json` file    |
 | [dijkstra.py](./dijkstra.py)               | Runs the Dijkstra's Shortest Path Algorithm for the given `graph.json` file        |
 
+## Experimental codes
+
+| Python Code                                              | What does it do?                                                                                                          |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| [bfs_visualization.py](./bfs_visualization.py)           | Runs the Breadth-First Search (BFS) algorithm for the given `graph.json` file and creates visualization for the algorithm |
+| [dfs_visualization.py](./dfs_visualization.py)           | Runs the Depth-First Search (DFS) algorithm for the given `graph.json` file and creates visualization for the algorithm   |
+| [dijkstra_visualization.py](./dijkstra_visualization.py) | Runs the Dijkstra's Shortest Path Algorithm for the given `graph.json` file and creates visualization for the algorithm   |
+
 ## The list of Implemented Graph Algorithms
 
 - Breadth-First Search (BFS)
